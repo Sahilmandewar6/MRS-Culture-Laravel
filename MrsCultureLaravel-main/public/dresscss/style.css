@@ -1,0 +1,55 @@
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.gallery img:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 20px black;
+}
+
+
+
+
+
+
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+  }
+  
+  .container .heading{
+	width: 50%;
+	padding-bottom: 50px;
+  }
+  .container .heading h3{
+	font-size: 3em;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #222;
+  }
+  
+  .container .heading h3 span{
+	font-weight: 100;
+  }
+
+
